@@ -286,6 +286,37 @@ The table below presents comprehensive metrics across all three complaint catego
 
 ---
 
+## 📚 References
+
+### Data Source
+
+- **Consumer Financial Protection Bureau (CFPB)**. (2025). *Consumer Complaint Database*.  
+  Retrieved from: [https://www.consumerfinance.gov/data-research/consumer-complaints/](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+### Software & Frameworks
+
+- **Pandas** - Data loading and manipulation  
+  Documentation: [https://pandas.pydata.org/](https://pandas.pydata.org/)
+
+- **Scikit-learn** - Machine learning models (`SGDClassifier`, `PassiveAggressiveClassifier`, `LinearSVC`), `TfidfVectorizer`, pipelines, and performance metrics  
+  Documentation: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
+
+- **Imbalanced-learn** - SMOTE (Synthetic Minority Over-sampling Technique) implementation  
+  Documentation: [https://imbalanced-learn.org/stable/](https://imbalanced-learn.org/stable/)
+
+- **LightGBM** - Light Gradient Boosting Machine model  
+  Documentation: [https://lightgbm.readthedocs.io/en/stable/](https://lightgbm.readthedocs.io/en/stable/)
+
+- **Matplotlib** - Visualization and plotting library  
+  Documentation: [https://matplotlib.org/](https://matplotlib.org/)
+
+- **Seaborn** - Statistical data visualization (confusion matrices)  
+  Documentation: [https://seaborn.pydata.org/](https://seaborn.pydata.org/)
+
+- **Transformers (Hugging Face)** - DistilBERT baseline model experiments  
+  Documentation: [https://huggingface.co/transformers/](https://huggingface.co/transformers/)
+
+---
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
