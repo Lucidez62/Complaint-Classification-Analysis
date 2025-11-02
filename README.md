@@ -95,7 +95,6 @@ Our experiments focused on finding the best combination of architectural choice 
 # Comparative Performance
 The key performance metrics were the Macro Average F1-Score (for overall model balance) and the per-class F1-Score for 'Mortgage' (the rarest class). The following table illustrates the final experimental results for our Top 5 models:
 ![Final Model Performance Metrics](images/MetricsTable.png)
-<img src="images/MetricsTable.png" alt="Final Model Performance Metrics" width="8000"/>
 This table clearly shows that the simple, fast linear models using the class_weight hyperparameter were the most effective, and the Voting Ensemble (our final architectural choice) was the most robust.
 Below are the confusion metrics for the top 2 best performing models:
 ![Confusion Matrix for Vote Ensemble](images/Im1.png)
