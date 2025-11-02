@@ -82,7 +82,7 @@ python run_model_5_lightgbm.py
 # . View the Results
 Each script will train the model, print the final classification_report (with accuracy, F1-score, etc.) to your console, and save a professional confusion matrix (e.g., confusion_matrix_voting_ensemble.png) to the root folder.
 # Architectural Workflow of the The Vote Ensemble Model:
-![Voting Ensemble Architecture](mermaid-diagram-2025-11-01-233820.png)
+![Voting Ensemble Architecture](Mermaid.png)
 # Experiments/Results Summary
 The core of this project was a series of experiments to find the best architectural and hyperparameter choices for this specific imbalanced NLP task. We compared our engineered models against two baselines:
 
@@ -97,8 +97,8 @@ The key performance metrics were the Macro Average F1-Score (for overall model b
 ![Final Model Performance Metrics](images/MetricsTable.png)
 This table clearly shows that the simple, fast linear models using the class_weight hyperparameter were the most effective, and the Voting Ensemble (our final architectural choice) was the most robust.
 Below are the confusion metrics for the top 2 best performing models:
-![Confusion Matrix for LightGBM (Balanced, TF-IDF)](images/cm_lightgbm.png)
-![Confusion Matrix for PassiveAggressive (Balanced, CountVec)](images/cm_pac_countvec.png)
+![Confusion Matrix for Vote Ensemble](images/Im1.png)
+![Confusion Matrix for PassiveAggressive (Balanced, CountVec)](images/im2.png)
 # Conclusion
 Our project was a step-by-step journey to find the best model for a highly imbalanced classification problem.
 
