@@ -176,7 +176,7 @@ Example: `confusion_matrix_voting_ensemble.png`
 
 The Voting Ensemble workflow architecture:
 
-![Voting Ensemble Architecture](Mermaid.png)
+![Voting Ensemble Architecture](images/Mermaid.png)
 
 ---
 
